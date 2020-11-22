@@ -1,0 +1,53 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3974335, 2020-11-11T04:09:45-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: UrbaneRounded-Light by Device
+ * URL: https://www.myfonts.com/fonts/device/urbane-rounded/light/
+ * 
+ * Webfont: UrbaneRounded-Medium by Device
+ * URL: https://www.myfonts.com/fonts/device/urbane-rounded/medium/
+ * 
+ * Webfont: UrbaneRounded-DemiBold by Device
+ * URL: https://www.myfonts.com/fonts/device/urbane-rounded/demibold/
+ * 
+ * 
+ * Webfonts copyright: Â© Rian Hughes 2017. A Device font. All rights reserved. E-mail: info@devicefonts.co.uk. Web: www.devicefonts.co.uk.
+ * 
+ * Â© 2020 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3ca4bf");
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: "UrbaneRounded-Light";
+  src: url("~assets/stylesheets/fonts/UrbaneRounded-Light/font.woff2")
+      format("woff2"),
+    url("~assets/stylesheets/fonts/UrbaneRounded-Light/font.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "UrbaneRounded-DemiBold";
+  src: url("~assets/stylesheets/fonts/UrbaneRounded-DemiBold/font.woff2")
+      format("woff2"),
+    url("~assets/stylesheets/fonts/UrbaneRounded-DemiBold/font.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "UrbaneRounded-Medium";
+  src: url("~assets/stylesheets/fonts/UrbaneRounded-Medium/font.woff2")
+      format("woff2"),
+    url("~assets/stylesheets/fonts/UrbaneRounded-Medium/font.woff")
+      format("woff");
+}

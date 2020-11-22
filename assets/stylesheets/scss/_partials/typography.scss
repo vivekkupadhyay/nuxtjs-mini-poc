@@ -32,16 +32,22 @@ html {
 
 @font-face {
   font-family: "UrbaneRounded-Light";
-  src: url("../../fonts/UrbaneRounded-Light/font.woff2") format("woff2"),
-    url("../../fonts/UrbaneRounded-Light/font.woff") format("woff");
+  src: url("~assets/stylesheets/fonts/UrbaneRounded-Light/font.woff2")
+      format("woff2"),
+    url("~assets/stylesheets/fonts/UrbaneRounded-Light/font.woff")
+      format("woff");
 }
 @font-face {
   font-family: "UrbaneRounded-DemiBold";
-  src: url("../../fonts/UrbaneRounded-DemiBold/font.woff2") format("woff2"),
-    url("../../fonts/UrbaneRounded-DemiBold/font.woff") format("woff");
+  src: url("~assets/stylesheets/fonts/UrbaneRounded-DemiBold/font.woff2")
+      format("woff2"),
+    url("~assets/stylesheets/fonts/UrbaneRounded-DemiBold/font.woff")
+      format("woff");
 }
 @font-face {
   font-family: "UrbaneRounded-Medium";
-  src: url("../../fonts/UrbaneRounded-Medium/font.woff2") format("woff2"),
-    url("../../fonts/UrbaneRounded-Medium/font.woff") format("woff");
+  src: url("~assets/stylesheets/fonts/UrbaneRounded-Medium/font.woff2")
+      format("woff2"),
+    url("~assets/stylesheets/fonts/UrbaneRounded-Medium/font.woff")
+      format("woff");
 }

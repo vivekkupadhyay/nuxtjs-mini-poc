@@ -137,14 +137,6 @@
     }
   }
 
-  .hz-cards {
-    .card {
-      .card-title {
-        color: $if-samon;
-      }
-    }
-  }
-
   .vt-cards {
     .card {
       .card-title,
@@ -167,10 +159,26 @@
     }
   }
 }
+.testimonials-section {
+  .testimonials-cards {
+    &.vt-cards {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
 @media (min-width: 768px) {
   .testimonials-section {
     .section-title {
       padding-bottom: 60px;
+    }
+  }
+  .testimonials-section {
+    .testimonials-cards {
+      &.vt-cards {
+        padding-left: 0;
+        padding-right: 0;
+      }
     }
   }
 }

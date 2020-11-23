@@ -15,7 +15,7 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     // SCSS file in the project
-    '~assets/stylesheets/app.scss'
+    '~/assets/stylesheets/app.scss'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -26,7 +26,8 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: ['@nuxtjs/style-resources'],
+  buildModules: [
+  ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [

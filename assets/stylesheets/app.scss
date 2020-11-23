@@ -1,6 +1,5 @@
 @import "./_partials/variables";
 @import "./_partials/mixins";
-@import "./_partials/typography";
 @import "./_partials/global";
 
 /* Header Section */
@@ -128,20 +127,18 @@
     }
 
     .card-title {
-      font-family: $urbane-bold;
+      font-weight: $bold;
       font-size: 18px;
     }
 
     .card-subtitle {
-      font-family: $urbane-medium;
+      font-weight: $medium;
       font-size: 14px;
     }
   }
 
   .hz-cards {
     .card {
-      .card-subtitle {
-      }
       .card-title {
         color: $if-samon;
       }

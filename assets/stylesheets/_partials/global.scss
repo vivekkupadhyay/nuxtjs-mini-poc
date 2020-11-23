@@ -1,8 +1,7 @@
 /* Common styles */
 body {
   margin: 0;
-  font-family: $urbane-light, "Helvetica Neue", Arial, sans-serif;
-  font-weight: normal;
+  font-weight: $light;
   font-style: normal;
   color: $if-blue;
   text-align: left;
@@ -23,19 +22,18 @@ h4,
 h5,
 h6,
 .btn {
-  font-family: $urbane-medium;
-  font-weight: normal;
+  font-weight: $medium;
 }
 
 /* Font Family */
-.urbane-light {
-  font-family: $urbane-light;
+.comfortaa-light {
+  font-weight: $light;
 }
-.urbane-medium {
-  font-family: $urbane-medium;
+.comfortaa-medium {
+  font-weight: $medium;
 }
-.urbane-bold {
-  font-family: $urbane-bold;
+.comfortaa-bold {
+  font-weight: $bold;
 }
 
 /* Bg Colors */
@@ -58,7 +56,7 @@ h6,
 
   * {
     color: $if-blue;
-    font-family: $urbane-light;
+    font-weight: $light;
     font-size: 16px;
     line-height: 30px;
   }

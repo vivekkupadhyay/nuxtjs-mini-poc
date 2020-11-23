@@ -26,22 +26,25 @@
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/3ca4bf");
 
+/* Font file path */
+$font-path: "~assets/fonts";
+
 html {
   -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
   font-family: "UrbaneRounded-Light";
-  src: url("~assets/fonts/UrbaneRounded-Light.woff2") format("woff2"),
-    url("~assets/fonts/UrbaneRounded-Light.woff") format("woff");
+  src: url(#{$font-path}/UrbaneRounded-Light.woff2) format("woff2"),
+    url(#{$font-path}/UrbaneRounded-Light.woff) format("woff");
 }
 @font-face {
   font-family: "UrbaneRounded-DemiBold";
-  src: url("~assets/fonts/UrbaneRounded-DemiBold.woff2") format("woff2"),
-    url("~assets/fonts/UrbaneRounded-DemiBold.woff") format("woff");
+  src: url(#{$font-path}/UrbaneRounded-DemiBold.woff2) format("woff2"),
+    url(#{$font-path}/UrbaneRounded-DemiBold.woff) format("woff");
 }
 @font-face {
   font-family: "UrbaneRounded-Medium";
-  src: url("~assets/fonts/UrbaneRounded-Medium.woff2") format("woff2"),
-    url("~assets/fonts/UrbaneRounded-Medium.woff") format("woff");
+  src: url(#{$font-path}/UrbaneRounded-Medium.woff2) format("woff2"),
+    url(#{$font-path}/UrbaneRounded-Medium.woff) format("woff");
 }

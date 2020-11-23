@@ -4,7 +4,7 @@
         :title="cta.value" 
         :value="cta.value" 
         class="btn btn-signup rounded-pill">
-        {{cta.value}} <img alt="Sign Up" title="Sign Up" src="~/assets/img/next.svg" />
+        {{cta.value}} <img class="lazyload" alt="Sign Up" title="Sign Up" data-src="~/assets/img/next.svg" />
     </button>
 </template>
 

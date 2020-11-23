@@ -27,10 +27,34 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    '@aceforth/nuxt-optimized-images',
+    '@aceforth/nuxt-optimized-images', 
+    'nuxt-lazysizes', 
   ],
   optimizedImages: {
-    optimizeImages: true
+    inlineImageLimit: -1,
+    handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
+    optimizeImages: true,
+    optimizeImagesInDev: false,
+    defaultImageLoader: 'img-loader',
+    mozjpeg: {
+      quality: 85
+    },
+    optipng: false,
+    pngquant: {
+      speed: 7,
+      quality: [0.65, 0.8]
+    },
+    webp: {
+      quality: 85
+    }
+  }, 
+  lazySizes: {
+    extendAssetUrls: {
+      img: 'data-src',
+      source: 'data-srcset',
+      // Component with custom props
+      AppImage: ['source-url', 'image-url'],
+    },
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)

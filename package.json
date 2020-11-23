@@ -27,6 +27,7 @@
     "imagemin-pngquant": "^9.0.1",
     "imagemin-svgo": "^8.0.0",
     "node-sass": "^5.0.0",
+    "nuxt-lazysizes": "^1.1.1",
     "sass": "^1.29.0",
     "sass-loader": "^10.1.0"
   }

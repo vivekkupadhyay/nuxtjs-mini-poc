@@ -2,6 +2,10 @@
   "name": "nuxt-ssr-poc",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "12.x", 
+    "npm": "6.x"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

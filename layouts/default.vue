@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import axios from '~/node_modules/axios'
 import Header from '../components/_partial/header/Header' 
 import Footer from '../components/_partial/footer/Footer'
 

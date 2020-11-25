@@ -8,8 +8,8 @@
                         <div class="col-md-3">
                             <img 
                                 :data-src="hzCard.image.url" 
-                                alt="hzCard.image.description" 
-                                title="hzCard.image.title" 
+                                :alt="hzCard.image.description" 
+                                :title="hzCard.image.title" 
                                 class="card-img border-0 rounded-0 lazyload" />
                         </div>
                         <div class="col-md-9">
@@ -25,8 +25,8 @@
                 <li class="card border-0 rounded-0" v-for="vtCard in testimonialsContent.vtCards" :key="vtCard.copy">
                     <img 
                         :data-src="vtCard.image.url" 
-                        alt="vtCard.image.description" 
-                        title="vtCard.image.title" 
+                        :alt="vtCard.image.description" 
+                        :title="vtCard.image.title" 
                         class="card-img border-0 rounded-0 lazyload" />    
                     <h5 class="card-title">{{ vtCard.heading }}</h5><h6 class="card-subtitle">{{ vtCard.subHeading }}</h6>
                     <div class="card-body border-0 rounded-0">
